@@ -4,10 +4,8 @@ const http_request = require('request') //helpful npm module for easy http reque
 const PORT = process.env.PORT || 3000 //allow environment variable to possible set PORT
 const bodyParser = require('body-parser') //parses bodies of POST messsages
 
-/*YOU NEED AN APP ID KEY TO RUN THIS CODE
-  GET ONE BY SIGNING UP AT openweathermap.org
-*/
-let API_KEY = '3811628764de732526a001fe10ce5fa3' //<== YOUR API KEY HERE
+
+let API_KEY = '3811628764de732526a001fe10ce5fa3' //API KEY
 
 
 
